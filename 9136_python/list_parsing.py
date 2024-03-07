@@ -1,6 +1,3 @@
-#parse list to extract the name and state of the el with the same year
-
-
 csv_data = [
 "Name,Student ID,Suburb",
 "Luke,202154321,2000 NSW Sydney",
@@ -11,7 +8,6 @@ csv_data = [
 
 # remove the first el in list
 csv_data.remove(csv_data[0])
-#print(csv_data)
 
 #we ask the user for a year
 query_year = int(input("input year to search:"))
