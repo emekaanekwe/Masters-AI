@@ -1,0 +1,12 @@
+AX^2 + BX + C = 0
+
+Ex Rroots of in any quad equation depending on output of B^2 - 4AC
+
+!!the # of real roots affect how the quad formula is used
+
+steps
+1. get inputs of A, B, C
+2. solve for x by x = <quadratic formula>
+2.1 x = 0 => 1
+    x > 0 => 2+
+    x < 0 => 0
