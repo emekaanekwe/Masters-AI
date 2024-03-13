@@ -1,5 +1,4 @@
 # DO NOT delete this line
-from diceroll import roll_the_dice
 from random import choice, choices
 
 # Initialise the players
