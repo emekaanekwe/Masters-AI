@@ -1,4 +1,5 @@
 import random as ran
+import matplotlib
 
 def mat():
     funct_list = ["linear", "quadratic", "cubic", "exponential", "inverse even", "inverse odd", "absolute value", "radical", "cuberoot", "logn"]
