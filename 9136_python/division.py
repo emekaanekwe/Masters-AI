@@ -20,11 +20,11 @@ f20p = 20.99988
 # store the values of above vars into a list
 variable_names = dir()
 
-values_li = []
+values_dict = {}
 
 for name in variable_names:
-    if not name.startswith('__') and not callable(eval(name)):
-        values_li.append(eval(name))
+    if not callable(eval(name)) and name.startswith('p'):
+        (eval(name))
 
 # Print the list of values
 print("List of values:", values_li)

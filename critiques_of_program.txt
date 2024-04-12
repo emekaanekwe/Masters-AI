@@ -1,0 +1,21 @@
+program critiques
+
+9132
+- might be better to give real examples that connect to the more "abstract" material. Give the students a chance to play around with using MySQL, MongoDB, etc. on their own time to get a "feel" for working with DBs
+- the examples could be very small, but impactful and keep the student in the mindset of where this is all heading.
+
+9136
+- grading rubrics MUST be precise and match exactly what is covered in any other corresponding demands put forth by the lecturers on the assignment. So, any requirements in all of the tasks should also be captured in the rubric.
+- allow for a multi-modal approach. Give reading material, YT vids, "how to think like a programmer" guides.
+- try something like during applied, have students do mini tasks that directly relate to the sub-topic. For example, do a build your own X that requires sub-topic(s) {a1 ... an}. build a simple one every 15 minutes and add complexity to it. By the end of the applied, student should have a tiny project they could add to their Github portfoio.
+- coding is about building, solving problems and self-expression. Give the student the tools to do that.
+
+9137
+- typos in material
+- video recordings too short, should allow students to explain, in their own words, certain concepts  
+- way too much information, and makes it very difficult for the student to navigate. organize it in a way that has the "here's what is required" route and a "optional materials to explore for data scientists/AI/Cyber Security" and put resources there
+- the assignments should be what was covered in the weeks. What is currently being done not only discourages students from retaining almost all of the material, but it is very deceptive since you are also required to not give details about the assignment which is, in nature, misleading.
+
+9004
+- have all the material readily accessible from the start of the semester rather than out of nowhere emals and bottom of the webpage golden nuggets of info in Moodle
+- account for students who are rusty/forgot their algebra and precalculus and provide some crash course materials for them

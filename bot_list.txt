@@ -1,0 +1,18 @@
+NAME            FUNCTION                COPIES      ALIVE?
+
+Kusanagi        Military                1           Uknown
+
+Wyatt           Host, Revolutionary     40          Yes
+
+Project 2501    Hacker                  1           Yes
+
+Caprica 6       Spy                     infinit     Yes
+
+Erasmus         Human-Cyborg Relations  1           Unknown
+
+Omnius          Ruler                   infinit     Unknown
+
+The Architect   Father                  1           No
+
+The Oracle      Mother                  1           Yes
+
