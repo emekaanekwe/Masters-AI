@@ -9,6 +9,7 @@ program critiques
 - allow for a multi-modal approach. Give reading material, YT vids, "how to think like a programmer" guides.
 - try something like during applied, have students do mini tasks that directly relate to the sub-topic. For example, do a build your own X that requires sub-topic(s) {a1 ... an}. build a simple one every 15 minutes and add complexity to it. By the end of the applied, student should have a tiny project they could add to their Github portfoio.
 - coding is about building, solving problems and self-expression. Give the student the tools to do that.
+- it was heard that the in-class exam is to check if 
 
 9137
 - typos in material
@@ -19,3 +20,4 @@ program critiques
 9004
 - have all the material readily accessible from the start of the semester rather than out of nowhere emals and bottom of the webpage golden nuggets of info in Moodle
 - account for students who are rusty/forgot their algebra and precalculus and provide some crash course materials for them
+- could implement the strategy of using some kind of flux program where students can ask questions while in class, the TAs get the most common/important Qs, and the lecturer will answer them. Could limit the word limit as well.

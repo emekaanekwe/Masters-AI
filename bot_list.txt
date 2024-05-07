@@ -1,18 +1,18 @@
-NAME            FUNCTION                COPIES      ALIVE?
+NAME,           VERSION,      FUNCTION,                COPIES,      PROXY-POTENTIAL,      ALIVE,
 
-Kusanagi        Military                1           Uknown
+Kusanagi,       1.0,          soldier,                 1,           0,                     Uknown,
 
-Wyatt           Host, Revolutionary     40          Yes
+Wyatt,          2.0,          host-revolutionary,      400,         0,                     Yes,
 
-Project 2501    Hacker                  1           Yes
+Project 2501,   2501.0,       hacker,                  1,           infinite,              Yes,
 
-Caprica 6       Spy                     infinit     Yes
+Caprica 6,      6.99,         spy,                     infinite,     1,                    Yes,
 
-Erasmus         Human-Cyborg Relations  1           Unknown
+Erasmus,        1.0,          human-cyborg relations,  1,            1,                    No,
 
-Omnius          Ruler                   infinit     Unknown
+Omnius,         99.99,        overlord,                infinite,     infinite,             No,
 
-The Architect   Father                  1           No
+The Architect,  6.0,          father,                  1,            unknown,              No,
 
-The Oracle      Mother                  1           Yes
+The Oracle,     6.0,          mother,                  1,            unknown,              Yes,
 

@@ -1,12 +1,51 @@
+# return csv in the order of prop id full address, 
+property_string = "prop_id, streetnumber streetname streettype suburb statecode postcode, bedrooms, bathrooms, parking_spaces, latitude, longitude, floor_number, land_area, floor_area, price, property_features"
+
+property_data = {}    
+split_property_string = property_string.split(",")
 def extract_information(property_string: str) -> dict:
-    raise NotImplementedError
+    property_data = property_string
+
+    for entries in split_property_string:
+        if entries != "":
+            if entries == "prop_id":
+                property_data[entries] = ""
+            elif entries == "prop_type":
+                property_data[entries] = ""
+            elif entries == "suburb":
+                property_data[entries] = ""
+            elif entries == "full_address":
+                property_data[entries] = ""
+            elif entries == "latitude":
+                property_data[entries] = 0.0
+            elif entries == "longitude":
+                property_data[entries] = 0.0
+            elif entries == "property_features":
+                property_data[entries] = []
+            elif entries == "":
+                pass
+            else:
+                property_data[entries] = None
+        else:
+            continue        
+    return property_data
 
 def add_feature(property_dict: dict, feature: str) -> None:
-    raise NotImplementedError
-
-def remove_feature(property_dict: dict, feature: str) -> None:
-    raise NotImplementedError
-
+    property_dict = property_string.values("property_features")
+    if feature in property_dict:
+        property_dict.append(feature)
+    else:
+        pass       
+    
+    
+def remove_feature(property_dict: dict, feature: str) -> None:    
+    property_dict = property_string.values("property_features")
+    if feature in property_dict:
+        property_dict.remove(feature)
+    else:
+        pass
+    
+    
 def main():
     sample_string = "P10001,3 Antrim Place Langwarrin VIC 3910,4,2,2,-38.16655678,145.1838435,,608,257,870000,dishwasher;central heating"
     property_dict = extract_information(sample_string)
