@@ -14,7 +14,7 @@ class Testing(unittest.TestCase):
 
 age = 100
 #the program is killed at the line below
-#assert(age > 100), "The age is too high"
+assert(age >= 100), "The age is too high"
 
 import array
 x = 5.0

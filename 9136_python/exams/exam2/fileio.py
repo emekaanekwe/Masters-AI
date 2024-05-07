@@ -4,11 +4,17 @@
 #r - read
 #w - open and truncate
 #+ - appended after mode to allow read & write
-'''COMMON METHODS'''
+'''COMMON READ METHODS'''
 # file.readline() - reads one line at a time
 # for line in file: - allows a looping readline()
 # file.readlines() - returns a list of all lines in file
+# file.read() - returns all content as a string
+'''COMMON WRITE METHODS'''
+# file.write(<text> + "\n") - writes to file 
 
+
+'''CLOSING A FILE'''
+# file.close() - closes the fille
 
 def read_csv_to_dict(filename):
     data_dict = {}
